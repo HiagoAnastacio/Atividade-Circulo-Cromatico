@@ -23,19 +23,41 @@ body{
 }
 .Menu-lateral{
     background-color:rgb(157, 178, 191);
-    margin: 0;
+    margin: 0%;
+    padding: 0%;
+    display: inline-block;
+    justify-content: center;
     height: 102.5%;
     grid-area: 1/1/13/3;
     border-radius: 25.5px;
     border: solid 1.5px rgb(39, 55, 77);
     box-shadow: 2px 3px 3px 2px rgba(0, 0, 0, 0.25);
 }
-.M.img{
+.M-MiniConteider{
+    height: 87.5px;
+    margin-left: 25%;
+    margin-top: 50px;
+    padding: 7.5px;
+    width: 85px;
+    display: flex;
+    border-radius: 20px;
     background-color: rgb(39, 55, 77);
-    padding: 5px;
 }
-.Menu-lateral ul{
+.Menu-lateral ul{   
     list-style: none;
+    font-size: 11.5px;
+}
+.Menu-lateral ul img{
+    height: 22.5px;
+}
+.Menu-lateral ul :hover{
+    font-weight: bold;
+}
+.Menu-lateral p{
+    padding-left: 35px;
+    padding-top: 20px;
+    font-size: 12.5px;
+    font-weight: bold;
 }
 .Barra-de-pesquisa{
     /* margin: 0; */
